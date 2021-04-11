@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+:root {
+  --primary-color: #2563eb;
+  /* --gray-header: #6b7280; */
+  --off-white: #dbeafe;
+}
+
+hr {
+  margin: 2rem 0rem;
+}
+
+/* container */
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* link */
+.link {
+  text-decoration: none;
+  border: 1px solid;
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
+}
+
+.link-primary {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.link-secondary {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.link-no-decoration {
+  text-decoration: none;
+}
+
+.link-active {
+  font-weight: bold;
+}
+
+/* List */
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-element-inline {
+  display: inline-block;
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.navbrand {
+  color: white;
+  font-weight: bold;
+}
+
+.navlist {
+  text-align: right;
+}
+
+.navbar a {
+  color: white;
+  padding: 1rem;
+}
+
+/* hero */
+.hero {
+  padding: 1rem;
+}
+
+.hero img {
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+.hero-heading {
+  text-align: center;
+  font-size: 2rem;
+  padding-top:1rem;
+}
+
+
+/* section */
+.section {
+  padding: 2rem;
+}
+
+.section-offwhite {
+  background-color: var(--off-white);
+}
+
+section .section-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* footer */
+footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  text-align: center;
+}
+
+.footer-heading {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer ul {
+  padding-inline-start: 0px;
+}
+
+footer a {
+  color: white;
+  padding: 1rem;
+}
