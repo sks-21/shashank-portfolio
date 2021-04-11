@@ -17,7 +17,7 @@ hr {
 
 /* container */
 .container {
-  padding: 0rem 1rem;
+  padding: orem 1rem;
 }
 
 .container-center {
@@ -114,6 +114,10 @@ section .section-heading {
   text-align: center;
 }
 
+.section-link{
+  margin-top:0.3rem;
+  display:inline-block;
+}
 
 /* footer */
 footer {
