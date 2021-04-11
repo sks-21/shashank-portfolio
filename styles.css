@@ -8,7 +8,7 @@ body {
 :root {
   --primary-color: #2563eb;
   /* --gray-header: #6b7280; */
-  --off-white: #dbeafe;
+  --off-white: #EFF6FF;
 }
 
 hr {
@@ -142,4 +142,14 @@ footer ul {
 footer a {
   color: white;
   padding: 1rem;
+}
+
+
+/* extra */
+.btn{
+  display:block;
+}
+
+.section-project{
+  margin-top: 4rem;
 }
