@@ -8,7 +8,7 @@ body {
 :root {
   --primary-color: #2563eb;
   /* --gray-header: #6b7280; */
-  --off-white: #EFF6FF;
+  --off-white: #eff6ff;
 }
 
 hr {
@@ -89,16 +89,15 @@ hr {
 .hero img {
   display: block;
   margin: auto;
-  max-width:80%;
+  max-width: 80%;
   width: 600px;
 }
 
 .hero-heading {
   text-align: center;
   font-size: 2rem;
-  padding-top:1rem;
+  padding-top: 1rem;
 }
-
 
 /* section */
 .section {
@@ -115,9 +114,9 @@ section .section-heading {
   text-align: center;
 }
 
-.section-link{
-  margin-top:0.3rem;
-  display:inline-block;
+.section-link {
+  margin-top: 0.3rem;
+  display: inline-block;
 }
 
 /* footer */
@@ -145,12 +144,27 @@ footer a {
   padding: 1rem;
 }
 
-
 /* extra */
-.btn{
-  display:block;
+.btn {
+  display: block;
 }
 
-.section-project{
+.section-project {
   margin-top: 4rem;
 }
+
+.blog-div {
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
+.blog-div span {
+  color: #2563eb;
+  font-weight: bold;
+}
+
+/* .link:hover {
+  box-shadow: 12px 12px 1px 0.5px ;
+  transform: translateY(-0.5rem);
+  cursor:pointer ;
+} */
