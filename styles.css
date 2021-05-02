@@ -17,7 +17,7 @@ hr {
 
 /* container */
 .container {
-  padding: orem 1rem;
+  padding: 0rem 1rem;
 }
 
 .container-center {
@@ -144,13 +144,15 @@ footer a {
   padding: 1rem;
 }
 
+
+
 /* extra */
 .btn {
   display: block;
 }
 
 .section-project {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .blog-div {
@@ -163,8 +165,45 @@ footer a {
   font-weight: bold;
 }
 
-/* .link:hover {
-  box-shadow: 12px 12px 1px 0.5px ;
-  transform: translateY(-0.5rem);
-  cursor:pointer ;
-} */
+
+
+/* CARD and Hoover effect on card */
+
+.card-container{
+  max-width:800px;
+  margin:auto ;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px 0 rgba(27, 26, 26, 0.4);
+  transition: 0.5s ;
+}
+
+.card-container:hover .card{
+  filter: blur(20px);
+  opacity: 0.9;
+  transform:scale(0.9);
+}
+
+.card-container .card:hover{
+  filter:blur(0px);
+  transform:scale(1.1);
+  opacity:1;
+}
+
+/* Link Hover Effect */
+.link:hover{
+  box-shadow: 2px 2px 2px 2px #9CA3AF;
+  transition: box-shadow 0.2s;
+}
+
+.link:active {
+  background-color: #3B82F6;
+  transform: translateY(2px);
+  transition:0.2s;
+}
+
+li .link{
+  margin-right: 0.3rem;
+}
