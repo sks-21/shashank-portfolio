@@ -172,6 +172,7 @@ footer a {
 .card-container{
   max-width:800px;
   margin:auto ;
+  padding-inline-start: 0px;
 }
 .card {
   border: 1px solid black;
