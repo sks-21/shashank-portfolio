@@ -211,6 +211,11 @@ li .link {
     width: 90%;
     /* margin:1rem; */
   }
+
+  .button-container{
+    display: flex;
+    flex-wrap:wrap ;
+  }
 }
 
 ul {
