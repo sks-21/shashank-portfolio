@@ -144,8 +144,6 @@ footer a {
   padding: 1rem;
 }
 
-
-
 /* extra */
 .btn {
   display: block;
@@ -165,46 +163,55 @@ footer a {
   font-weight: bold;
 }
 
-
-
 /* CARD and Hoover effect on card */
 
-.card-container{
-  max-width:800px;
-  margin:auto ;
+.card-container {
+  max-width: 800px;
+  margin: auto;
   padding-inline-start: 0px;
 }
 .card {
   border: 1px solid black;
   border-radius: 1rem;
   box-shadow: 0 4px 12px 0 rgba(27, 26, 26, 0.4);
-  transition: 0.5s ;
+  transition: 0.5s;
 }
 
-.card-container:hover .card{
+.card-container:hover .card {
   filter: blur(20px);
   opacity: 0.9;
-  transform:scale(0.9);
+  transform: scale(0.9);
 }
 
-.card-container .card:hover{
-  filter:blur(0px);
-  transform:scale(1.1);
-  opacity:1;
+.card-container .card:hover {
+  filter: blur(0px);
+  transform: scale(1.1);
+  opacity: 1;
 }
 
 /* Link Hover Effect */
-.link:hover{
-  box-shadow: 2px 2px 2px 2px #9CA3AF;
+.link:hover {
+  box-shadow: 2px 2px 2px 2px #9ca3af;
   transition: box-shadow 0.2s;
 }
 
 .link:active {
-  background-color: #3B82F6;
+  background-color: #3b82f6;
   transform: translateY(2px);
-  transition:0.2s;
+  transition: 0.2s;
 }
 
-li .link{
+li .link {
   margin-right: 0.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .card-container {
+    width: 100%;
+  }
+}
+
+ul {
+  padding-inline-start: 0px;
 }
