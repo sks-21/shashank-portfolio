@@ -144,6 +144,13 @@ footer a {
   padding: 1rem;
 }
 
+footer a:hover {
+  font-weight: bold;
+  color: black;
+  transition: 0.2s;
+}
+
+
 /* extra */
 .btn {
   display: block;
@@ -175,7 +182,7 @@ footer a {
   border: 1px solid black;
   border-radius: 1rem;
   box-shadow: 0 4px 12px 0 rgba(27, 26, 26, 0.4);
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .card-container:hover .card {
@@ -205,6 +212,7 @@ footer a {
 li .link {
   margin-right: 0.3rem;
 }
+
 
 @media only screen and (max-width: 768px) {
 
